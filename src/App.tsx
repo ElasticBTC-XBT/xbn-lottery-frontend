@@ -70,9 +70,9 @@ const App: React.FC = () => {
             <Route path="/ifo">
               <Ifos />
             </Route>
-            <Route path="/collectibles">
+            {/* <Route path="/collectibles">
               <Collectibles />
-            </Route>
+            </Route> */}
             <Route exact path="/teams">
               <Teams />
             </Route>
