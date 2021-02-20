@@ -1,10 +1,15 @@
 import { MenuEntry } from '@pancakeswap-libs/uikit'
 
 const config: MenuEntry[] = [
+  // {
+  //   label: 'Home',
+  //   icon: 'HomeIcon',
+  //   href: '/',
+  // },
   {
-    label: 'Home',
-    icon: 'HomeIcon',
-    href: '/',
+    label: 'Lottery',
+    icon: 'TicketIcon',
+    href: '/lottery',
   },
   {
     label: 'Trade',
@@ -34,11 +39,7 @@ const config: MenuEntry[] = [
   //   icon: 'PoolIcon',
   //   href: '/pools',
   // },
-  {
-    label: 'Lottery',
-    icon: 'TicketIcon',
-    href: '/lottery',
-  },
+
   // {
   //   label: 'Collectibles',
   //   icon: 'NftIcon',
